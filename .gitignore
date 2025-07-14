@@ -1,0 +1,24 @@
+# created by virtualenv automatically
+# Python byte‑code
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# IDE/editor metadata
+.idea/
+.vscode/
+
+
+# FAISS index files (regenerate if needed)
+faiss/
+*.faiss
+*.pkl
+
+# OS junk
+.DS_Store
+Thumbs.db
+
