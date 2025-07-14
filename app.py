@@ -100,7 +100,7 @@ import os
 
 from flask import Flask, render_template, request
 
-api_key="AIzaSyCsAJm_lOqye8oSi7DlgXiinoGLEF0Z06I"
+api_key="your key"
 genai.configure(api_key=api_key)
 # chat history and conversation store will be created once the flask app starts. Chat data will persist as long as the flask session is active.
 chat_history = []
