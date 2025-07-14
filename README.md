@@ -23,7 +23,7 @@ This project demonstrates a complete pipeline from **web scraping HTML pages**, 
   - [What Happens with the Scraped Pages](#what-happens-with-the-scraped-pages)
 - [Setup & Installation](#setup--installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
+- [Future Enchancements](#future-enhancements)
 - [License](#license)
 
 ---
@@ -119,6 +119,38 @@ chain = RetrievalQA.from_chain_type(llm=llm, retriever=retriever)
 - To expand coverage, add more scraping targets or enhance the processing logic.
 
 ---
+
+## Future Enhancements
+
+1. **Support for More Websites**  
+   Extend the scraper’s capabilities to handle a wider variety of websites, including those with advanced anti-bot measures or dynamic content loaded via JavaScript.
+
+2. **User-Friendly Interface**  
+   Develop a graphical user interface (GUI) or a web dashboard to make the tool accessible to users without coding experience.
+
+3. **Scheduler and Automation**  
+   Implement scheduling features to enable automated, periodic scraping tasks with configurable intervals.
+
+4. **Data Export Options**  
+   Add support for exporting scraped data in various formats such as CSV, Excel, JSON, or databases.
+
+5. **Error Handling and Logging**  
+   Enhance error handling to gracefully manage network issues, website changes, and provide detailed logs for easier debugging.
+
+6. **Scalability and Performance**  
+   Optimize the code for faster scraping and introduce support for parallel or distributed scraping to handle large-scale data extraction.
+
+7. **Data Cleaning and Analysis Tools**  
+   Integrate basic data cleaning and analysis features to provide insights and visualizations directly in the application.
+
+8. **Authentication and Proxies**  
+   Allow the use of authenticated sessions and proxy rotation to avoid IP bans and access restricted content.
+
+9. **Notification System**  
+   Implement email or push notifications to inform users about the completion of scraping jobs or encountered errors.
+
+10. **API Integration**  
+    Offer an API for programmatic access so other applications can trigger scraping and retrieve results.
 
 ---
 ## License
