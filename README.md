@@ -162,13 +162,13 @@ However, you may **not copy, modify, redistribute, or claim this project as your
 
 ---
 
-Feel free to explore the code.
+## 🧑‍💻 Author
 
-_Developed with 💡 by [Rasika Gautam](https://github.com/rasika1205)_
+**Rasika Gautam**
+*Data Science & AI Enthusiast* | B.Tech MAC, NSUT
+[GitHub](https://github.com/rasika1205)
 
 
 **_Summary: This project’s strength is its end-to-end pipeline: web pages are scraped, saved, processed, and transformed into a searchable, answerable knowledge base—enabling powerful Q&A on your own curated data!_**
 
 ---
-
-Let me know if you want to add more details or sections!
